@@ -104,11 +104,4 @@ public class SaveBetaRabbit {
 		return -1;
 
 	}
-
-	public static void main(String[] args) {
-		int[][] grid = { { 0, 2, 5 }, { 1, 1, 3 }, { 2, 1, 1 } };
-		System.out.println("answer->" + answer(7, grid));
-		System.out.println("answer" + answer(12, grid));
-
-	}
 }
